@@ -1,18 +1,13 @@
 
+import Login from "./components/Login";
 
-import AddUser from './components/AddUser'
-import CreateUser from './components/CreateUser'
-import Crud from './components/Crud'
-
-function App() {
+const App = () => {
 
   return (
-    <div className=' flex justify-center items-center mt-2'>
-     <Crud/>
-     {/* <AddUser/> */}
-     {/* <CreateUser/> */}
+    <div>
+      <Login />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
