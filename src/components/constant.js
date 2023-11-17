@@ -1,0 +1,1 @@
+export const CRUD_API = "f42644f3a66c4a4c81cefb8f6f93ea39"
